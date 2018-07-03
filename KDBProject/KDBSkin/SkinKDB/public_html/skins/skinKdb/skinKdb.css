@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/**ADFFaces_Skin_File / DO NOT REMOVE**/
+@namespace af "http://xmlns.oracle.com/adf/faces/rich";
+@namespace dvt "http://xmlns.oracle.com/dss/adf/faces";
+
+.AFPanelBgr {
+}
+
+.AFPanelBgr[theme="light"] {
+    background-image: url("../../images/bgr.jpg"); 
+}
+
+af|outputLabel {
+    background-image: none; 
+    }
+
+af|panelGroupLayout {
+        }
+
+af|decorativeBox::top-content {
+    background-image: none; 
+    height: 250px; 
+}
+
+af|decorativeBox::bottom {
+    background-color: InfoBackground; 
+            }
+
+af|decorativeBox::bottom[theme="light"] {
+    background-color: White; 
+    background-image: none; 
+    height: auto; 
+}
+
+af|decorativeBox::center[theme="medium"] {
+    background-color: White; 
+    background-image: none; 
+}
+
+af|decorativeBox::end[theme="medium"]:rtl {
+    background-color: InfoBackground; 
+}
+
+af|decorativeBox::center[theme="light"] {
+    color: Black; 
+    background-color: transparent; 
+    background-image: url("../../images/ttop.gif");; 
+    background-size: auto; 
+}
+
+af|decorativeBox::end[theme="light"] {
+    background-image: url("../../images/ttop.gif"); 
+    background-color: transparent; 
+}
+
+af|decorativeBox::bottom-end[theme="light"] {
+    background-image: none; 
+    background-color: White; 
+}
+
+af|decorativeBox::bottom-end[theme="light"]:rtl {
+     background-image: url("../../images/ttop.gif"); 
+    background-color: InfoBackground; 
+}
+
+af|decorativeBox::bottom-start[theme="light"] {
+    background-image: none;  
+    background-color: White; 
+}
+
+af|decorativeBox::start[theme="light"] {
+    background-image: url("../../images/ttop.gif"); 
+    background-color: transparent; 
+}
+
+af|decorativeBox::end[theme="light"]:rtl {
+    background-image: url("../../images/ttop.gif"); 
+        color: transparent; 
+    }
+
+af|decorativeBox::top[theme="light"] {
+    background-image: none; 
+}
+
+af|decorativeBox::top-end[theme="light"] {
+    background-image: none; 
+}
+
+af|decorativeBox::top-start[theme="light"] {
+     background-image: url("../../images/ttop.gif"); 
+}
+
+af|decorativeBox::center {
+    background-image: url("../../images/ttop.gif"); 
+}
+
+af|decorativeBox::top-content[theme="light"] {
+    background-image: url("../../images/header.jpg"); 
+    background-clip: border-box; 
+    background-size: cover; 
+}
+
+af|decorativeBox::start[theme="light"]:rtl {
+    background-image: url("../../images/ttop.gif"); 
+}
+
+af|inputText[theme="light"] {
+        }
+
+af|inputText::label[theme="light"] {
+    color: Black; 
+}

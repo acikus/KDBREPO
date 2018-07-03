@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<taglib xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1" xmlns="http://java.sun.com/xml/ns/javaee">
+  <display-name>Custom Functions</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>taglib1</short-name>
+  <uri>/webapp/functions</uri>
+  <function>
+	    <name>canI</name>
+	    <function-class>com.test.kdb.view.login.LoginHandler</function-class>
+	    <function-signature>java.lang.Boolean canI(java.lang.String)</function-signature>
+    </function>
+   <function>
+	    <name>test</name>
+	    <function-class>com.test.kdb.view.login.LoginHandler</function-class>
+	    <function-signature>java.lang.String test(java.lang.String)</function-signature>
+    </function>   
+    
+</taglib>

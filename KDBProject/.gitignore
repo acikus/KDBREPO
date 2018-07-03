@@ -1,0 +1,9 @@
+Model/classes/
+ViewController/classes/
+DocumentationAndConfiguration/classes/
+Model/src/META-INF/cwallet.sso
+src/META-INF/cwallet.sso
+ViewController/public_html/WEB-INF/temp/
+Model/deploy/
+ViewController/deploy/
+deploy/

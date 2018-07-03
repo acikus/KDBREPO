@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <View
+      id="View2">
+      <property
+         name="activityId">reportsQATotal</property>
+      <property
+         name="page">/jsffReports/reportsQATotal.jsff</property>
+      <property
+         name="start">true</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>reportsQATotal&lt;/b> (Default Activity)&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">275.6953</property>
+      <property
+         name="pageFragment">true</property>
+      <property
+         name="x">337.68164</property>
+   </View>
+   <MethodCall
+      id="MethodCall6">
+      <property
+         name="activityId">QATotal</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>QATotal&lt;/b>&lt;/p>&lt;p>Activity Type:  Method Call&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">265.74707</property>
+      <property
+         name="x">578.5</property>
+   </MethodCall>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase7"
+      from="MethodCall6"
+      to="View2">
+      <property
+         name="fromOutcome">QATotal</property>
+      <property
+         name="sdm:polyPoints">L50,537.5,265.39648,378.68164,275.34473,R50</property>
+   </ControlFlowCase>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase8"
+      from="View2"
+      to="MethodCall6">
+      <property
+         name="fromOutcome">executeReport</property>
+      <property
+         name="sdm:polyPoints">R54,378.90067,278.84473,537.5,268.89648,L54</property>
+   </ControlFlowCase>
+</SDM>

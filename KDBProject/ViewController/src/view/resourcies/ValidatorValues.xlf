@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.1" xmlns="urn:oasis:names:tc:xliff:document:1.1">
+   <file source-language="en" original="view.resourcies.ValidaorValues"
+         datatype="x-oracle-adf">
+      <body>
+        <!-- Question related values -->
+         <trans-unit id="frm_qaQuestionMaxLen">
+            <source>500</source>
+            <target/>
+         </trans-unit>
+         <trans-unit id="frm_qaKeywordsMaxLen">
+            <source>250</source>
+            <target/>
+         </trans-unit>
+         <trans-unit id="frm_qaShortAnswerMaxLen">
+            <source>500</source>
+            <target/>
+         </trans-unit>
+        <!-- Document related values -->
+         <trans-unit id="frm_docNameMaxLen">
+            <source>500</source>
+            <target/>
+         </trans-unit>
+         <trans-unit id="frm_docKeywordsMaxLen">
+            <source>500</source>
+            <target/>
+         </trans-unit>
+         <trans-unit id="frm_docDescriptionMaxLen">
+            <source>1000</source>
+            <target/>
+         </trans-unit>
+         <!-- External links related values -->
+         <trans-unit id="frm_externalLinkUrllinkMaxLen">
+            <source>250</source>
+            <target/>
+         </trans-unit>
+         <trans-unit id="frm_externalLinkDescriptionMaxLen">
+            <source>250</source>
+            <target/>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

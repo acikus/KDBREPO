@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1">
+      <property
+         name="linkStyle">Orthogonal</property>
+      <property
+         name="y">83.5</property>
+      <property
+         name="x">88.01758</property>
+   </OverallProperties>
+   <View
+      id="View9">
+      <property
+         name="activityId">codebook</property>
+      <property
+         name="page">/jspxAdministration/codebook.jspx</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>codebook&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">207.26953</property>
+      <property
+         name="x">155.0</property>
+   </View>
+   <WildcardControlFlowRule
+      id="WildcardControlFlowRule20">
+      <property
+         name="activityId">*</property>
+      <property
+         name="y">79.82617</property>
+      <property
+         name="x">50.0</property>
+   </WildcardControlFlowRule>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase22"
+      from="WildcardControlFlowRule20"
+      to="View9">
+      <property
+         name="fromOutcome">adfMenu_codebook</property>
+      <property
+         name="sdm:polyPoints">B50,50.0,206.91895,L50</property>
+   </ControlFlowCase>
+</SDM>

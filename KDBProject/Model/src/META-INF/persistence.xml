@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="Cp1252" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+             version="1.0">
+  <persistence-unit name="Model">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/stakdbDS</jta-data-source>
+    <class>com.test.kdb.model.entity.Category</class>
+    <class>com.test.kdb.model.entity.Document</class>
+    <class>com.test.kdb.model.entity.DocumentstatsWeb</class>
+    <class>com.test.kdb.model.entity.DocExtension</class>
+    <class>com.test.kdb.model.entity.DocSource</class>
+    <class>com.test.kdb.model.entity.DocType</class>
+    <class>com.test.kdb.model.entity.Email</class>
+    <class>com.test.kdb.model.entity.ErrorLog</class>
+    <class>com.test.kdb.model.entity.ExternalLink</class>
+    <class>com.test.kdb.model.entity.Group</class>
+    <class>com.test.kdb.model.entity.Language</class>
+    <class>com.test.kdb.model.entity.LogDoc</class>
+    <class>com.test.kdb.model.entity.LogEmail</class>
+    <class>com.test.kdb.model.entity.LogQa</class>
+    <class>com.test.kdb.model.entity.News</class>
+    <class>com.test.kdb.model.entity.NoteType</class>
+    <class>com.test.kdb.model.entity.Permission</class>
+    <class>com.test.kdb.model.entity.Qa</class>
+    <class>com.test.kdb.model.entity.QastatsWeb</class>
+    <class>com.test.kdb.model.entity.QaNote</class>
+    <class>com.test.kdb.model.entity.User</class>
+    <class>com.test.kdb.model.utils.DocumentChunk</class>
+    <properties>
+      <property name="eclipselink.target-server" value="WebLogic_10"/>
+      <property name="javax.persistence.jtaDataSource"
+                value="jdbc/stakdbDS"/>
+    </properties>
+  </persistence-unit>
+</persistence>

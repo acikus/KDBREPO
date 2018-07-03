@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <View
+      id="View2">
+      <property
+         name="activityId">reportsDocDownloadedByCategories</property>
+      <property
+         name="page">/jsffReports/reportsDocDownloadedByCategories.jsff</property>
+      <property
+         name="start">true</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>reportsDocDownloadedByCategories&lt;/b> (Default Activity)&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">442.79883</property>
+      <property
+         name="pageFragment">true</property>
+      <property
+         name="x">295.71875</property>
+   </View>
+   <MethodCall
+      id="MethodCall3">
+      <property
+         name="activityId">DocumentDownloadedByCategories</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>DocumentDownloadedByCategories&lt;/b>&lt;/p>&lt;p>Activity Type:  Method Call&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">226.44824</property>
+      <property
+         name="x">641.7207</property>
+   </MethodCall>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase4"
+      from="View2"
+      to="MethodCall3">
+      <property
+         name="fromOutcome">executeReport</property>
+      <property
+         name="sdm:polyPoints">R46,336.71875,438.94824,598.2096,222.59766,L46</property>
+   </ControlFlowCase>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase5"
+      from="MethodCall3"
+      to="View2">
+      <property
+         name="fromOutcome">DocumentDownloadedByCategories</property>
+      <property
+         name="sdm:polyPoints">L54,600.7207,229.59766,339.2206,445.94824,R54</property>
+   </ControlFlowCase>
+</SDM>
